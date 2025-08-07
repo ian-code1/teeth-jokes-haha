@@ -10,7 +10,7 @@ latest_jokes = []
 reddit = praw.Reddit(
     client_id="0u3QE0tPr80gMl4RdQP7zA",
     client_secret="SwMxdeoLIIbR5wkc5hdnPz0Ef-akwQ",
-    user_agent="tooth-joke-bot by u/ian"
+    user_agent="tooth-joke-bot by u/YOUR_USERNAME"
 )
 
 def fetch_reddit_jokes():
