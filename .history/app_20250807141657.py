@@ -37,7 +37,7 @@ def fetch_reddit_jokes():
             latest_jokes = grab_jokes()
         except Exception as e:
             latest_jokes = [f"Error fetching jokes: {e}"]
-        time.sleep(3)
+        time.sleep(10)
 
 @app.route('/jokes')
 def get_jokes():
